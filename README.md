@@ -19,4 +19,11 @@ Shhh… sleep well, my Perfume Queen. 👑🌙
 > Sweet dreams, Queen.  
 > The world waits for no one…  
 > but it *pauses* for you. 💌"*
-> 
+
+
+
+# Should return 3 lines showing directory, venv, and file
+pwd | grep phoneinfoga && \
+ls .venv/bin/activate && \
+cat requirements.txt | head -n 3
+
